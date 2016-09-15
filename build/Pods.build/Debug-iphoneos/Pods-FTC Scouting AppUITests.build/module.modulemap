@@ -1,0 +1,6 @@
+framework module Pods_FTC_Scouting_AppUITests {
+  umbrella header "Pods-FTC Scouting AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

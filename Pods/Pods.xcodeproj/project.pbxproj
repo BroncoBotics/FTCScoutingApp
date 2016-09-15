@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11766574FF77554C7C35DF702F4F8D9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3771EA00540159725D0D79048E228AA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5AD05866F370F81EC0C06F7E27610CFA /* Pods-FTC Scouting AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F60A860468142A24C57A2CD9DC89020 /* Pods-FTC Scouting AppUITests-dummy.m */; };
+		63F48DCFEFEDB6201977B909EB78D363 /* Pods-FTC Scouting App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C8604BCA60CCB9F33E8708D651FAD5 /* Pods-FTC Scouting App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844955FDE85D56E6BE909FC9DC4093A4 /* Pods-FTC Scouting AppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF6876C776618CA2163F7AD9E790A3F /* Pods-FTC Scouting AppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A544736DFF6F378DDA0896E791FFD554 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C6EE5EC44938793C24C5DC88C109E9FD /* Pods-FTC Scouting App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 012CFDC2BAFA6176E4AA5B9216E1D61B /* Pods-FTC Scouting App-dummy.m */; };
+		C7786E4936CBA78607811CE9FA3F0007 /* Pods-FTC Scouting AppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3486CE29B40BE252EBCFEC9FEDAFC4 /* Pods-FTC Scouting AppTests-dummy.m */; };
+		FD88C9E53DEFEB477763634AA38E522C /* Pods-FTC Scouting AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5577AA20D96B385F01212B6F8B064CE4 /* Pods-FTC Scouting AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012CFDC2BAFA6176E4AA5B9216E1D61B /* Pods-FTC Scouting App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTC Scouting App-dummy.m"; sourceTree = "<group>"; };
+		0429082F49C09D08D1AD4ED70AFBFB61 /* Pods-FTC Scouting App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FTC Scouting App.modulemap"; sourceTree = "<group>"; };
+		09C8604BCA60CCB9F33E8708D651FAD5 /* Pods-FTC Scouting App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTC Scouting App-umbrella.h"; sourceTree = "<group>"; };
+		0A29F10900D3F5F6A75300F102A2D291 /* Pods-FTC Scouting App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTC Scouting App-resources.sh"; sourceTree = "<group>"; };
+		163568733AB0B617B902B1261E5951EA /* Pods-FTC Scouting AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTC Scouting AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C014E9F7836BBBE9921F34969F5B50D /* Pods-FTC Scouting AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FTC Scouting AppUITests.modulemap"; sourceTree = "<group>"; };
+		219603845216F3E24B767B2A50F80DBE /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		2779D400AB175AC9E1B6921C7F535FE7 /* Pods-FTC Scouting App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTC Scouting App.release.xcconfig"; sourceTree = "<group>"; };
+		378A74A2DA1ABF1A6D59E6BE9F6D3194 /* Pods-FTC Scouting AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTC Scouting AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F84F2FEB1BD6EAEDB1C855DD932DE04 /* Pods-FTC Scouting AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTC Scouting AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A9E0B67606286AF064DF7D47B7B1AB5 /* Pods_FTC_Scouting_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTC_Scouting_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5577AA20D96B385F01212B6F8B064CE4 /* Pods-FTC Scouting AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTC Scouting AppUITests-umbrella.h"; sourceTree = "<group>"; };
+		5DE7A2AF81CDA39555CDD1D32393D49C /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		5DF777EB0564BA713D2B709BE1BF084D /* Pods-FTC Scouting AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTC Scouting AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		605CD0E11F5FFEDD502B7933FC6F0088 /* Pods-FTC Scouting AppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTC Scouting AppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60A4BA72826CA6221C1E2299F8E52D6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C45B27F00B1CC7BE797E616B023DCB9 /* Pods-FTC Scouting AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTC Scouting AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E1F57184723A37A7C2BAD52BB34CFD6 /* Pods-FTC Scouting AppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTC Scouting AppTests-frameworks.sh"; sourceTree = "<group>"; };
+		6F60A860468142A24C57A2CD9DC89020 /* Pods-FTC Scouting AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTC Scouting AppUITests-dummy.m"; sourceTree = "<group>"; };
+		76EF9C6D2B2ADCCAD8F6530DA0570471 /* Pods_FTC_Scouting_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTC_Scouting_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78AA5DF552E6422D8F195E1E35FDF1B5 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		794030ED9E5956F9FA0F70E424B38A06 /* Pods-FTC Scouting App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTC Scouting App-acknowledgements.plist"; sourceTree = "<group>"; };
+		816D6A3DD926F6C010D6DD418A01FFBE /* Pods-FTC Scouting AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FTC Scouting AppTests.modulemap"; sourceTree = "<group>"; };
+		8CF6876C776618CA2163F7AD9E790A3F /* Pods-FTC Scouting AppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTC Scouting AppTests-umbrella.h"; sourceTree = "<group>"; };
+		8FADA22FEA88949C6B39A8BE3E7B72E6 /* Pods-FTC Scouting AppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTC Scouting AppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E6F2484574464FD288C30666235444 /* Pods-FTC Scouting AppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTC Scouting AppTests-resources.sh"; sourceTree = "<group>"; };
+		9AC3DFACDE63F058EE55EFEE72BC0F21 /* Pods-FTC Scouting App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTC Scouting App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A93F4B7429BE9932927175AAFE4F7A4B /* Pods-FTC Scouting AppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTC Scouting AppUITests-resources.sh"; sourceTree = "<group>"; };
+		AF3486CE29B40BE252EBCFEC9FEDAFC4 /* Pods-FTC Scouting AppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTC Scouting AppTests-dummy.m"; sourceTree = "<group>"; };
+		BE5859722310564700ED6B8E8B0AFC54 /* Pods_FTC_Scouting_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTC_Scouting_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC52053669C3DFE8486B818130539C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C447DE793131C9073115764C3E373CF6 /* Pods-FTC Scouting AppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTC Scouting AppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C608CF89ED3B1577423B6AF8D08A979A /* Pods-FTC Scouting App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTC Scouting App.debug.xcconfig"; sourceTree = "<group>"; };
+		C6A95060A7D3D156926904E09B2C3E68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C858D73E0A5B1DE6C3E4BF78BCC38763 /* Pods-FTC Scouting AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTC Scouting AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DAA5738D1B2CD28375FDEBA73108AECF /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		DB0C6218955B23214F1D039504530F55 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		DF275361F137FFFAC95E10B9F0BAE4E5 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		F1C68853059BA1188EB6694D74D055B2 /* Pods-FTC Scouting App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTC Scouting App-frameworks.sh"; sourceTree = "<group>"; };
+		F1E5620A0289885D1A7BE12952288620 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E4D10AB0D68EECB52D359D673B3F0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A544736DFF6F378DDA0896E791FFD554 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D98B5187E79687E344260851A3CD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11766574FF77554C7C35DF702F4F8D9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED1EEC92E404CF06A626F2707ADAF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3771EA00540159725D0D79048E228AA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056B7FB4565C8F6CFBC262FDCD790C0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78AA5DF552E6422D8F195E1E35FDF1B5 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06167324D98707E7335D5A2193C5D2AB /* Pods-FTC Scouting AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC52053669C3DFE8486B818130539C9 /* Info.plist */,
+				1C014E9F7836BBBE9921F34969F5B50D /* Pods-FTC Scouting AppUITests.modulemap */,
+				C447DE793131C9073115764C3E373CF6 /* Pods-FTC Scouting AppUITests-acknowledgements.markdown */,
+				C858D73E0A5B1DE6C3E4BF78BCC38763 /* Pods-FTC Scouting AppUITests-acknowledgements.plist */,
+				6F60A860468142A24C57A2CD9DC89020 /* Pods-FTC Scouting AppUITests-dummy.m */,
+				8FADA22FEA88949C6B39A8BE3E7B72E6 /* Pods-FTC Scouting AppUITests-frameworks.sh */,
+				A93F4B7429BE9932927175AAFE4F7A4B /* Pods-FTC Scouting AppUITests-resources.sh */,
+				5577AA20D96B385F01212B6F8B064CE4 /* Pods-FTC Scouting AppUITests-umbrella.h */,
+				378A74A2DA1ABF1A6D59E6BE9F6D3194 /* Pods-FTC Scouting AppUITests.debug.xcconfig */,
+				3F84F2FEB1BD6EAEDB1C855DD932DE04 /* Pods-FTC Scouting AppUITests.release.xcconfig */,
+			);
+			name = "Pods-FTC Scouting AppUITests";
+			path = "Target Support Files/Pods-FTC Scouting AppUITests";
+			sourceTree = "<group>";
+		};
+		0B8CEF19337FA4DFF56EC7EF36B16C09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E87E635A8BA23B6FDD7AFF5F5F24DCFC /* Firebase */,
+				17E963AC9EA7E429C37DA8FEEA72526B /* FirebaseAnalytics */,
+				C12C91F2C4C694776425E40592AE1113 /* FirebaseInstanceID */,
+				AEFF8F1B6621E9AFD02CAB76FC73388F /* GoogleInterchangeUtilities */,
+				D227E2B6883501EB56EEE7DB33608B01 /* GoogleSymbolUtilities */,
+				1FE7E728519B8C441DC0979AF90877D4 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		17E963AC9EA7E429C37DA8FEEA72526B /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				4DE4BC04D076DD74278EEC09A1F9E9A2 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		1FE7E728519B8C441DC0979AF90877D4 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				3A09B82FC34DC854CBB4A7D6B7C35C65 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		324E2F645E937130BB4D82B195447ABD /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				F1E5620A0289885D1A7BE12952288620 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		3A09B82FC34DC854CBB4A7D6B7C35C65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF275361F137FFFAC95E10B9F0BAE4E5 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4DE4BC04D076DD74278EEC09A1F9E9A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAA5738D1B2CD28375FDEBA73108AECF /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67CD1CAA51019C5C55204440CCFA8B20 /* Pods-FTC Scouting AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				60A4BA72826CA6221C1E2299F8E52D6D /* Info.plist */,
+				816D6A3DD926F6C010D6DD418A01FFBE /* Pods-FTC Scouting AppTests.modulemap */,
+				605CD0E11F5FFEDD502B7933FC6F0088 /* Pods-FTC Scouting AppTests-acknowledgements.markdown */,
+				163568733AB0B617B902B1261E5951EA /* Pods-FTC Scouting AppTests-acknowledgements.plist */,
+				AF3486CE29B40BE252EBCFEC9FEDAFC4 /* Pods-FTC Scouting AppTests-dummy.m */,
+				6E1F57184723A37A7C2BAD52BB34CFD6 /* Pods-FTC Scouting AppTests-frameworks.sh */,
+				93E6F2484574464FD288C30666235444 /* Pods-FTC Scouting AppTests-resources.sh */,
+				8CF6876C776618CA2163F7AD9E790A3F /* Pods-FTC Scouting AppTests-umbrella.h */,
+				6C45B27F00B1CC7BE797E616B023DCB9 /* Pods-FTC Scouting AppTests.debug.xcconfig */,
+				5DF777EB0564BA713D2B709BE1BF084D /* Pods-FTC Scouting AppTests.release.xcconfig */,
+			);
+			name = "Pods-FTC Scouting AppTests";
+			path = "Target Support Files/Pods-FTC Scouting AppTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0B8CEF19337FA4DFF56EC7EF36B16C09 /* Pods */,
+				EA835ED1E95FFA4C086ACC47C66A488E /* Products */,
+				AE89B9100927E245AAAB299AB7590153 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D816FB6035310E52D6DA53786BA4F67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE7A2AF81CDA39555CDD1D32393D49C /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE89B9100927E245AAAB299AB7590153 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E90D1D492886F1543C63E36797EA4B5A /* Pods-FTC Scouting App */,
+				67CD1CAA51019C5C55204440CCFA8B20 /* Pods-FTC Scouting AppTests */,
+				06167324D98707E7335D5A2193C5D2AB /* Pods-FTC Scouting AppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AEFF8F1B6621E9AFD02CAB76FC73388F /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F38FA45BD3E1C0E58BF4D98B0F38646B /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C12C91F2C4C694776425E40592AE1113 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C6218955B23214F1D039504530F55 /* FIRInstanceID.h */,
+				8D816FB6035310E52D6DA53786BA4F67 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		D227E2B6883501EB56EEE7DB33608B01 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				056B7FB4565C8F6CFBC262FDCD790C0C /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		E87E635A8BA23B6FDD7AFF5F5F24DCFC /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				324E2F645E937130BB4D82B195447ABD /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		E90D1D492886F1543C63E36797EA4B5A /* Pods-FTC Scouting App */ = {
+			isa = PBXGroup;
+			children = (
+				C6A95060A7D3D156926904E09B2C3E68 /* Info.plist */,
+				0429082F49C09D08D1AD4ED70AFBFB61 /* Pods-FTC Scouting App.modulemap */,
+				9AC3DFACDE63F058EE55EFEE72BC0F21 /* Pods-FTC Scouting App-acknowledgements.markdown */,
+				794030ED9E5956F9FA0F70E424B38A06 /* Pods-FTC Scouting App-acknowledgements.plist */,
+				012CFDC2BAFA6176E4AA5B9216E1D61B /* Pods-FTC Scouting App-dummy.m */,
+				F1C68853059BA1188EB6694D74D055B2 /* Pods-FTC Scouting App-frameworks.sh */,
+				0A29F10900D3F5F6A75300F102A2D291 /* Pods-FTC Scouting App-resources.sh */,
+				09C8604BCA60CCB9F33E8708D651FAD5 /* Pods-FTC Scouting App-umbrella.h */,
+				C608CF89ED3B1577423B6AF8D08A979A /* Pods-FTC Scouting App.debug.xcconfig */,
+				2779D400AB175AC9E1B6921C7F535FE7 /* Pods-FTC Scouting App.release.xcconfig */,
+			);
+			name = "Pods-FTC Scouting App";
+			path = "Target Support Files/Pods-FTC Scouting App";
+			sourceTree = "<group>";
+		};
+		EA835ED1E95FFA4C086ACC47C66A488E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76EF9C6D2B2ADCCAD8F6530DA0570471 /* Pods_FTC_Scouting_App.framework */,
+				BE5859722310564700ED6B8E8B0AFC54 /* Pods_FTC_Scouting_AppTests.framework */,
+				4A9E0B67606286AF064DF7D47B7B1AB5 /* Pods_FTC_Scouting_AppUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F38FA45BD3E1C0E58BF4D98B0F38646B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219603845216F3E24B767B2A50F80DBE /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36007BD9AE93D13462C5FFCE1CA4FB16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD88C9E53DEFEB477763634AA38E522C /* Pods-FTC Scouting AppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBE7CF18F32FCAB4F64719740090446 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F48DCFEFEDB6201977B909EB78D363 /* Pods-FTC Scouting App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3D05E72ADC276EF5CAFBF5B29CA6D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844955FDE85D56E6BE909FC9DC4093A4 /* Pods-FTC Scouting AppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		229F7A2C4FEAE6A9ACF8D26303EAECB0 /* Pods-FTC Scouting App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FCE15465099ED2CE2E4B6D41B053CA /* Build configuration list for PBXNativeTarget "Pods-FTC Scouting App" */;
+			buildPhases = (
+				D144043BE7A7C5E892683BC3D4C903C6 /* Sources */,
+				3E4D10AB0D68EECB52D359D673B3F0BA /* Frameworks */,
+				AEBE7CF18F32FCAB4F64719740090446 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FTC Scouting App";
+			productName = "Pods-FTC Scouting App";
+			productReference = 76EF9C6D2B2ADCCAD8F6530DA0570471 /* Pods_FTC_Scouting_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D1350D8AB1FCDC843A59B9298441499 /* Pods-FTC Scouting AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452B598730B45DF7C6B15D1F35E85AD0 /* Build configuration list for PBXNativeTarget "Pods-FTC Scouting AppUITests" */;
+			buildPhases = (
+				AE88399FD6834993D4AB7005CD3982F4 /* Sources */,
+				D2D98B5187E79687E344260851A3CD9A /* Frameworks */,
+				36007BD9AE93D13462C5FFCE1CA4FB16 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FTC Scouting AppUITests";
+			productName = "Pods-FTC Scouting AppUITests";
+			productReference = 4A9E0B67606286AF064DF7D47B7B1AB5 /* Pods_FTC_Scouting_AppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		962839371AA4B3D9870CF605063D7BE2 /* Pods-FTC Scouting AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20350567E3B6771C04CDF6C56837FE33 /* Build configuration list for PBXNativeTarget "Pods-FTC Scouting AppTests" */;
+			buildPhases = (
+				53018F1E490FF463FCC714C97F049DD5 /* Sources */,
+				FED1EEC92E404CF06A626F2707ADAF08 /* Frameworks */,
+				DC3D05E72ADC276EF5CAFBF5B29CA6D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FTC Scouting AppTests";
+			productName = "Pods-FTC Scouting AppTests";
+			productReference = BE5859722310564700ED6B8E8B0AFC54 /* Pods_FTC_Scouting_AppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EA835ED1E95FFA4C086ACC47C66A488E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229F7A2C4FEAE6A9ACF8D26303EAECB0 /* Pods-FTC Scouting App */,
+				962839371AA4B3D9870CF605063D7BE2 /* Pods-FTC Scouting AppTests */,
+				8D1350D8AB1FCDC843A59B9298441499 /* Pods-FTC Scouting AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53018F1E490FF463FCC714C97F049DD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7786E4936CBA78607811CE9FA3F0007 /* Pods-FTC Scouting AppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE88399FD6834993D4AB7005CD3982F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD05866F370F81EC0C06F7E27610CFA /* Pods-FTC Scouting AppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D144043BE7A7C5E892683BC3D4C903C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6EE5EC44938793C24C5DC88C109E9FD /* Pods-FTC Scouting App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		84BAE2B9DCECC81D24C7E55DFF76BD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2779D400AB175AC9E1B6921C7F535FE7 /* Pods-FTC Scouting App.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FTC Scouting App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FTC Scouting App/Pods-FTC Scouting App.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FTC_Scouting_App;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6F3E34444AD462947FF1FB2DBEA06DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378A74A2DA1ABF1A6D59E6BE9F6D3194 /* Pods-FTC Scouting AppUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FTC Scouting AppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FTC Scouting AppUITests/Pods-FTC Scouting AppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FTC_Scouting_AppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C86B2F02D47A5D72C4DECDBCE1770E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C45B27F00B1CC7BE797E616B023DCB9 /* Pods-FTC Scouting AppTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FTC Scouting AppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FTC Scouting AppTests/Pods-FTC Scouting AppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FTC_Scouting_AppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF51C6FD02EFA5668B6BA1246B34E572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F84F2FEB1BD6EAEDB1C855DD932DE04 /* Pods-FTC Scouting AppUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FTC Scouting AppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FTC Scouting AppUITests/Pods-FTC Scouting AppUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FTC_Scouting_AppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E845434649B5AAC1E7E4780E2FBD61F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C608CF89ED3B1577423B6AF8D08A979A /* Pods-FTC Scouting App.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FTC Scouting App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FTC Scouting App/Pods-FTC Scouting App.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FTC_Scouting_App;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF7C689DC2BAD669C1BAA7246F7973D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF777EB0564BA713D2B709BE1BF084D /* Pods-FTC Scouting AppTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FTC Scouting AppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FTC Scouting AppTests/Pods-FTC Scouting AppTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FTC_Scouting_AppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07FCE15465099ED2CE2E4B6D41B053CA /* Build configuration list for PBXNativeTarget "Pods-FTC Scouting App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E845434649B5AAC1E7E4780E2FBD61F6 /* Debug */,
+				84BAE2B9DCECC81D24C7E55DFF76BD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20350567E3B6771C04CDF6C56837FE33 /* Build configuration list for PBXNativeTarget "Pods-FTC Scouting AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86B2F02D47A5D72C4DECDBCE1770E3B /* Debug */,
+				EF7C689DC2BAD669C1BAA7246F7973D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452B598730B45DF7C6B15D1F35E85AD0 /* Build configuration list for PBXNativeTarget "Pods-FTC Scouting AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F3E34444AD462947FF1FB2DBEA06DA /* Debug */,
+				DF51C6FD02EFA5668B6BA1246B34E572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
