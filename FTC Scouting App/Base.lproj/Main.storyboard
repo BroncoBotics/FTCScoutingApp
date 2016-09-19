@@ -12,6 +12,7 @@
         <mutableArray key="OpenSans-Regular.ttf">
             <string>OpenSans</string>
             <string>OpenSans</string>
+            <string>OpenSans</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -124,10 +125,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="ydj-C6-x4g" kind="show" id="MJF-Ia-XkK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uMt-ls-9Y8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="731" y="867"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="I7P-wk-XFB">
+            <objects>
+                <viewController id="ydj-C6-x4g" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R4z-Vq-5Wt"/>
+                        <viewControllerLayoutGuide type="bottom" id="ePI-B0-BN0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LAX-3M-zPE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4uO-YJ-3zi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1173" y="867"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="IPF-EF-kwz">
@@ -141,6 +163,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ZIz-t4-FMF">
+                                <rect key="frame" x="40" y="194" width="240" height="179"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hab-Xl-vep" customClass="GIDSignInButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cmx-ab-UKh">
+                                        <rect key="frame" x="0.0" y="50" width="240" height="1"/>
+                                        <color key="backgroundColor" red="0.21349394629999999" green="0.21349394629999999" blue="0.21349394629999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="Qhg-VQ-aH7"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wiH-ZY-NZ8">
+                                        <rect key="frame" x="0.0" y="51" width="240" height="128"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N4o-tN-VoS">
+                                                <rect key="frame" x="8" y="49" width="224" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QrT-Q9-Ln8">
+                                                <rect key="frame" x="8" y="87" width="224" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="56" id="kRT-UC-TG2"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                                <state key="normal" title="Email Login">
+                                                    <color key="titleColor" red="0.0" green="0.39576937099999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QDX-Ki-JYk">
+                                                <rect key="frame" x="8" y="13" width="224" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wyh-u3-ccg">
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                 <state key="normal" image="close">
@@ -150,20 +214,18 @@
                                     <action selector="popViewController:" destination="rGV-Z0-oKe" eventType="touchUpInside" id="tIJ-h4-Wtj"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cmx-ab-UKh">
-                                <rect key="frame" x="95" y="283" width="130" height="1"/>
-                                <color key="backgroundColor" red="0.21349394629999999" green="0.21349394629999999" blue="0.21349394629999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1" id="Qhg-VQ-aH7"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hab-Xl-vep" customClass="GIDSignInButton">
-                                <rect key="frame" x="76" y="235" width="168" height="49"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fCI-zT-G6d" firstAttribute="top" secondItem="ZIz-t4-FMF" secondAttribute="bottom" constant="195" id="LgL-gm-70u"/>
+                            <constraint firstItem="ZIz-t4-FMF" firstAttribute="centerY" secondItem="xLm-jK-9O0" secondAttribute="centerY" id="PUU-8p-szE"/>
+                            <constraint firstItem="ZIz-t4-FMF" firstAttribute="leading" secondItem="xLm-jK-9O0" secondAttribute="leadingMargin" constant="24" id="TbJ-dV-ajN"/>
+                            <constraint firstItem="ZIz-t4-FMF" firstAttribute="centerX" secondItem="xLm-jK-9O0" secondAttribute="centerX" id="spj-Jn-Wqq"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <segue destination="ydj-C6-x4g" kind="show" identifier="ToHomeScreen" id="MFU-sd-sHB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1RD-cP-6DA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -193,4 +255,7 @@
     <resources>
         <image name="close" width="12" height="12"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="MFU-sd-sHB"/>
+    </inferredMetricsTieBreakers>
 </document>

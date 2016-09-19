@@ -52,7 +52,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
                                                                      accessToken: authentication.accessToken)
         
         FIRAuth.auth()?.signInWithCredential(credential) { (user, error) in
-            // ...
+            
         }
         
     }
