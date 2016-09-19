@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Aw3-41-Buw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Aw3-41-Buw">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="OpenSans-Light.ttf">
@@ -26,19 +27,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FTC Scouting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DiP-Xn-npj">
-                                <rect key="frame" x="72" y="57" width="177" height="52"/>
-                                <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="30"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="App created by Brophy Robotics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnP-Fo-bph">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App created by Brophy Robotics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnP-Fo-bph">
                                 <rect key="frame" x="124" y="538" width="188" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="YmH-bc-hrR"/>
+                                    <constraint firstAttribute="height" constant="22" id="eN2-Ul-Kos"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAs-e5-0eN">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAs-e5-0eN">
                                 <rect key="frame" x="60" y="283" width="200" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="a8x-Pj-oBl"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" red="0.0" green="0.39576937099999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -47,12 +50,18 @@
                                     <segue destination="zNo-fC-EPp" kind="showDetail" id="zKG-vd-xZ3"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eTz-xB-dty">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eTz-xB-dty">
                                 <rect key="frame" x="95" y="283" width="130" height="1"/>
                                 <color key="backgroundColor" red="0.21349394633507857" green="0.21349394633507857" blue="0.21349394633507857" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="br2-Ih-svU"/>
+                                </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0UB-FU-fej">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0UB-FU-fej">
                                 <rect key="frame" x="60" y="228" width="200" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="40G-pl-Bsi"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.0" green="0.39576937104258691" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -61,8 +70,38 @@
                                     <segue destination="rGV-Z0-oKe" kind="show" id="3Ee-F2-TyD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FTC Scouting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DiP-Xn-npj">
+                                <rect key="frame" x="74" y="57" width="173" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Eiz-PA-DRd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="30"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0UB-FU-fej" firstAttribute="leading" secondItem="PAs-e5-0eN" secondAttribute="leading" id="3fi-QP-AEQ"/>
+                            <constraint firstItem="PAs-e5-0eN" firstAttribute="top" secondItem="eTz-xB-dty" secondAttribute="top" id="3gW-4h-IaK"/>
+                            <constraint firstItem="0UB-FU-fej" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="44" id="3tu-VW-1Tk"/>
+                            <constraint firstItem="DiP-Xn-npj" firstAttribute="centerX" secondItem="0UB-FU-fej" secondAttribute="centerX" id="58l-oV-Ylo"/>
+                            <constraint firstItem="0UB-FU-fej" firstAttribute="bottom" secondItem="eTz-xB-dty" secondAttribute="bottom" id="9S2-IJ-FoN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cnP-Fo-bph" secondAttribute="trailing" constant="-8" id="Efc-PT-oNP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cnP-Fo-bph" secondAttribute="bottom" constant="8" symbolic="YES" id="Gal-m0-UIk"/>
+                            <constraint firstItem="0UB-FU-fej" firstAttribute="centerX" secondItem="eTz-xB-dty" secondAttribute="centerX" id="KDN-nG-vSR"/>
+                            <constraint firstItem="DiP-Xn-npj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MBh-Nd-ksJ"/>
+                            <constraint firstItem="DiP-Xn-npj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="OfS-Uz-oca"/>
+                            <constraint firstItem="eTz-xB-dty" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PXw-rB-Vrt"/>
+                            <constraint firstItem="eTz-xB-dty" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="79" id="VT2-R9-n68"/>
+                            <constraint firstItem="0UB-FU-fej" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="228" id="YfC-Vm-Lcs"/>
+                            <constraint firstItem="0UB-FU-fej" firstAttribute="trailing" secondItem="PAs-e5-0eN" secondAttribute="trailing" id="lWb-ix-RGF"/>
+                            <constraint firstItem="DiP-Xn-npj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qXc-e8-j7M"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="qXc-e8-j7M"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="OPJ-dw-hbq"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -89,10 +128,10 @@
             </objects>
             <point key="canvasLocation" x="731" y="867"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="IPF-EF-kwz">
             <objects>
-                <viewController id="rGV-Z0-oKe" sceneMemberID="viewController">
+                <viewController id="rGV-Z0-oKe" customClass="LoginViewController" customModule="FTC_Scouting_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2m8-WU-sKH"/>
                         <viewControllerLayoutGuide type="bottom" id="fCI-zT-G6d"/>
