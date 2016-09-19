@@ -9,6 +9,7 @@ target 'FTC Scouting App' do
   # Pods for FTC Scouting App
 pod 'Firebase'
 pod 'FirebaseUI’
+pod 'Google/SignIn'
 
   target 'FTC Scouting AppTests' do
     inherit! :search_paths
