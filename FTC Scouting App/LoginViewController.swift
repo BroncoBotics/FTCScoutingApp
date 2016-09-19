@@ -22,5 +22,10 @@ class LoginViewController: UIViewController {
     }
     
     
+    @IBAction func popViewController(sender: UIButton) {
+        if let navController = self.navigationController {
+            navController.popViewControllerAnimated(true)
+        }
+    }
 }
 
