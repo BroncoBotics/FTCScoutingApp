@@ -11,8 +11,8 @@ import Foundation
 import Firebase
 import GoogleSignIn
 
-class ViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate {
-    var ref: Firebase!
+class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate {
+    var ref: Firebase?
     override func viewDidLoad() {
         super.viewDidLoad()
         ref = Firebase(url: "https://ftc-scouting-app.firebaseio.com/")
@@ -24,7 +24,7 @@ class ViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate {
         GIDSignIn.sharedInstance().signInSilently()
     }
     // Wire up to a button tap
-    func authenticateWithGoogle(sender: UIButton) {
+    @IBAction func authenticateWithGoogle(sender: UIButton) {
         GIDSignIn.sharedInstance().signIn()
     }
     func signOut() {
@@ -41,7 +41,7 @@ class ViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate {
             })
         } else {
             // Don't assert this error it is commonly returned as nil
-            println("\(error.localizedDescription)")
+            print("\(error.localizedDescription)")
         }
     }
     // Implement the required GIDSignInDelegate methods
