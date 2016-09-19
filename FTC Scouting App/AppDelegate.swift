@@ -9,7 +9,6 @@
 import UIKit
 import Foundation
 import Firebase
-import GoogleSignIn
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,12 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Firebase configuration
         FIRApp.configure()
-        
-        // User Authentication configuration
-        var configureError: NSError?
-        GGLContext.sharedInstance().configureWithError(&configureError)
-        assert(configureError == nil, "Error configuring Google services: \(configureError)")
-
         
         return true
     }
