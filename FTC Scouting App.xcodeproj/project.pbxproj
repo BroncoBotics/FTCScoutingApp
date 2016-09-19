@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		35CE8F6DA5380D4F5A6FA145 /* Pods_FTC_Scouting_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFD83B7BD6B9E4AE6823E3C /* Pods_FTC_Scouting_AppUITests.framework */; };
 		7A2FB0621D8B5B6C0015D09B /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A2FB0581D8B5B6C0015D09B /* OpenSans-Bold.ttf */; };
 		7A2FB0631D8B5B6C0015D09B /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A2FB0591D8B5B6C0015D09B /* OpenSans-BoldItalic.ttf */; };
 		7A2FB0641D8B5B6C0015D09B /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A2FB05A1D8B5B6C0015D09B /* OpenSans-ExtraBold.ttf */; };
@@ -27,7 +26,6 @@
 		7A3CC4AD1D667896007013AB /* FTC_Scouting_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3CC4AC1D667896007013AB /* FTC_Scouting_AppUITests.swift */; };
 		7AE79D4C1D8B5CCC003F3EF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AE79D4B1D8B5CCC003F3EF4 /* GoogleService-Info.plist */; };
 		7AFE09961D8C547A0024E3C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE09951D8C547A0024E3C2 /* LoginViewController.swift */; };
-		AB65EADFCC608CB28784944E /* Pods_FTC_Scouting_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A3B196FA343F07196D35CC /* Pods_FTC_Scouting_AppTests.framework */; };
 		AC9EFDC6421551A7030743DB /* Pods_FTC_Scouting_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F704DC68DF946B2E38EDF3C2 /* Pods_FTC_Scouting_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,9 +48,7 @@
 
 /* Begin PBXFileReference section */
 		03885BCE2EEDC163DC898C10 /* Pods-FTC Scouting App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC Scouting App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FTC Scouting App/Pods-FTC Scouting App.debug.xcconfig"; sourceTree = "<group>"; };
-		33A3B196FA343F07196D35CC /* Pods_FTC_Scouting_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTC_Scouting_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0B1DD36D18BF66C4DDEFC2 /* Pods-FTC Scouting AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC Scouting AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FTC Scouting AppUITests/Pods-FTC Scouting AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DFD83B7BD6B9E4AE6823E3C /* Pods_FTC_Scouting_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTC_Scouting_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		638A73536F538409DB14B973 /* Pods-FTC Scouting App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC Scouting App.release.xcconfig"; path = "Pods/Target Support Files/Pods-FTC Scouting App/Pods-FTC Scouting App.release.xcconfig"; sourceTree = "<group>"; };
 		7A2FB0581D8B5B6C0015D09B /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		7A2FB0591D8B5B6C0015D09B /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -98,7 +94,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB65EADFCC608CB28784944E /* Pods_FTC_Scouting_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +101,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35CE8F6DA5380D4F5A6FA145 /* Pods_FTC_Scouting_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,8 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				F704DC68DF946B2E38EDF3C2 /* Pods_FTC_Scouting_App.framework */,
-				33A3B196FA343F07196D35CC /* Pods_FTC_Scouting_AppTests.framework */,
-				5DFD83B7BD6B9E4AE6823E3C /* Pods_FTC_Scouting_AppUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
