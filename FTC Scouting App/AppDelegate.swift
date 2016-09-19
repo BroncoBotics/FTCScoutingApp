@@ -9,6 +9,7 @@
 import UIKit
 import Foundation
 import Firebase
+import Google/SignIn
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,8 +20,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
+        // Firebase configuration
         FIRApp.configure()
+        
+        // User Authentication configuration
+        var configureError: NSError?
+        GGLContext.sharedInstance().configureWithError(&configureError)
+        assert(configureError == nil, "Error configuring Google services: \(configureError)")
+
+        
         return true
+    }
+    
+    // Handle incoming URLs
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+        return GIDSignIn.sharedInstance().handleURL(url,
+                                                    sourceApplication: sourceApplication,
+                                                    annotation: annotation)
     }
 
     func applicationWillResignActive(application: UIApplication) {
