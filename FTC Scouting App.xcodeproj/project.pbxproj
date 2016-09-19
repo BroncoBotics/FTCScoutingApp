@@ -26,6 +26,7 @@
 		7A3CC4A21D667896007013AB /* FTC_Scouting_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3CC4A11D667896007013AB /* FTC_Scouting_AppTests.swift */; };
 		7A3CC4AD1D667896007013AB /* FTC_Scouting_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3CC4AC1D667896007013AB /* FTC_Scouting_AppUITests.swift */; };
 		7AE79D4C1D8B5CCC003F3EF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AE79D4B1D8B5CCC003F3EF4 /* GoogleService-Info.plist */; };
+		7AFE09961D8C547A0024E3C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE09951D8C547A0024E3C2 /* LoginViewController.swift */; };
 		AB65EADFCC608CB28784944E /* Pods_FTC_Scouting_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A3B196FA343F07196D35CC /* Pods_FTC_Scouting_AppTests.framework */; };
 		AC9EFDC6421551A7030743DB /* Pods_FTC_Scouting_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F704DC68DF946B2E38EDF3C2 /* Pods_FTC_Scouting_App.framework */; };
 /* End PBXBuildFile section */
@@ -77,6 +78,7 @@
 		7A3CC4AC1D667896007013AB /* FTC_Scouting_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTC_Scouting_AppUITests.swift; sourceTree = "<group>"; };
 		7A3CC4AE1D667896007013AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AE79D4B1D8B5CCC003F3EF4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7AFE09951D8C547A0024E3C2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9262493481E9EB1A255408A1 /* Pods-FTC Scouting AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC Scouting AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FTC Scouting AppTests/Pods-FTC Scouting AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		954201D1515188B4C077D69E /* Pods-FTC Scouting AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC Scouting AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FTC Scouting AppUITests/Pods-FTC Scouting AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DF00CEFB63DD5CA22956C460 /* Pods-FTC Scouting AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC Scouting AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FTC Scouting AppTests/Pods-FTC Scouting AppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				7A3CC48C1D667896007013AB /* AppDelegate.swift */,
 				7A3CC48E1D667896007013AB /* ViewController.swift */,
 				7A3CC4901D667896007013AB /* Main.storyboard */,
+				7AFE09951D8C547A0024E3C2 /* LoginViewController.swift */,
 				7A3CC4931D667896007013AB /* Assets.xcassets */,
 				7A3CC4951D667896007013AB /* LaunchScreen.storyboard */,
 				7A3CC4981D667896007013AB /* Info.plist */,
@@ -480,6 +483,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AFE09961D8C547A0024E3C2 /* LoginViewController.swift in Sources */,
 				7A3CC48F1D667896007013AB /* ViewController.swift in Sources */,
 				7A3CC48D1D667896007013AB /* AppDelegate.swift in Sources */,
 			);
