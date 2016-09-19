@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Aw3-41-Buw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Aw3-41-Buw">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -70,8 +70,8 @@
                                     <segue destination="rGV-Z0-oKe" kind="show" id="3Ee-F2-TyD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FTC Scouting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DiP-Xn-npj">
-                                <rect key="frame" x="74" y="57" width="173" height="52"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRST Scouting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DiP-Xn-npj">
+                                <rect key="frame" x="62" y="57" width="197" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="Eiz-PA-DRd"/>
                                 </constraints>
@@ -150,13 +150,17 @@
                                     <action selector="popViewController:" destination="rGV-Z0-oKe" eventType="touchUpInside" id="tIJ-h4-Wtj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ecu-og-KpE">
-                                <rect key="frame" x="110" y="103" width="100" height="30"/>
-                                <state key="normal" title="Google Sign In"/>
-                                <connections>
-                                    <action selector="authenticateWithGoogle:" destination="rGV-Z0-oKe" eventType="touchUpInside" id="cUN-lX-vrb"/>
-                                </connections>
-                            </button>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cmx-ab-UKh">
+                                <rect key="frame" x="95" y="283" width="130" height="1"/>
+                                <color key="backgroundColor" red="0.21349394629999999" green="0.21349394629999999" blue="0.21349394629999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Qhg-VQ-aH7"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hab-Xl-vep" customClass="GIDSignInButton">
+                                <rect key="frame" x="76" y="235" width="168" height="49"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
