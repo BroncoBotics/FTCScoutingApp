@@ -31,5 +31,10 @@ class AddTeamViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func popViewController(sender: AnyObject) {
+        if let navController = self.navigationController {
+            navController.popViewControllerAnimated(true)
+        }
+    }
 
 }
