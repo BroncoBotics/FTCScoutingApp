@@ -7,10 +7,17 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 import GoogleSignIn
 
 
 class LoginViewController: UIViewController, GIDSignInUIDelegate {
+    
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +32,18 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate {
         // ...
     }
     
+    @IBAction func didTapSignIn(sender: AnyObject) {
+        // Sign In with credentials.
+        guard let email1 = emailField.text, let password1 = passwordField.text else { return }
+        FIRAuth.auth()?.signInWithEmail(email1, password: password1) { (user, error) in
+            if let error = error {
+                print(error.localizedDescription)
+                return
+            }
+
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -36,5 +55,7 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate {
             navController.popViewControllerAnimated(true)
         }
     }
+ 
+    
 }
 

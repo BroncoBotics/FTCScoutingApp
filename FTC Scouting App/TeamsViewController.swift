@@ -7,45 +7,68 @@
 //
 
 import UIKit
+import FirebaseAuth
+import Firebase
+import FirebaseAnalytics
+import FirebaseAuthUI
+
+
 
 class TeamsViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
-    // MARK: - Table view data source
+    }
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+
+        return 1
     }
+    
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+    
+        
+        return 5
+        
+        
+        /*FIRAuth.auth()?.addAuthStateDidChangeListener { auth, user in
+            if let user = user {
+                // User is signed in.
+                user.
+            } else {
+                // No user is signed in.
+            }*/
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        
+        if indexPath == 0 {
+            let cell = tableView.dequeueReusableCellWithIdentifier("Toolbar1TableViewCell", forIndexPath: indexPath)
+            return cell
+        }else if indexPath != 0{
+            let cell = tableView.dequeueReusableCellWithIdentifier("TeamTableViewCell", forIndexPath: indexPath)
+            //RIGHT HERE
+            return cell
+        }
+        
+        let cell = tableView.dequeueReusableCellWithIdentifier("Toolbar1TableViewCell", forIndexPath: indexPath)
+        return cell
+        
 
         // Configure the cell...
-
-        return cell
+        
+        
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

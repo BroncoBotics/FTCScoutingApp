@@ -24,7 +24,9 @@
 		7A3CC4971D667896007013AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3CC4951D667896007013AB /* LaunchScreen.storyboard */; };
 		7A3CC4A21D667896007013AB /* FTC_Scouting_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3CC4A11D667896007013AB /* FTC_Scouting_AppTests.swift */; };
 		7A3CC4AD1D667896007013AB /* FTC_Scouting_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3CC4AC1D667896007013AB /* FTC_Scouting_AppUITests.swift */; };
+		7A4DEF3E1DC7BE4000212805 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4DEF3D1DC7BE4000212805 /* TeamTableViewCell.swift */; };
 		7A8393B41D9EDC200073A89A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8393B31D9EDC200073A89A /* SignUpViewController.swift */; };
+		7AAB5D561DBA76B9002762AA /* Toolbar1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB5D551DBA76B9002762AA /* Toolbar1TableViewCell.swift */; };
 		7AD6BE311DA2998E00EEA481 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6BE301DA2998E00EEA481 /* TeamsViewController.swift */; };
 		7AD6BE331DA299C700EEA481 /* AddTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6BE321DA299C700EEA481 /* AddTeamViewController.swift */; };
 		7AD6BE351DA29A2D00EEA481 /* JoinTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6BE341DA29A2D00EEA481 /* JoinTeamViewController.swift */; };
@@ -34,6 +36,7 @@
 		7AD6BE431DA2A27900EEA481 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6BE421DA2A27900EEA481 /* RankingViewController.swift */; };
 		7AD6BE451DA2A29800EEA481 /* ViewMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6BE441DA2A29800EEA481 /* ViewMatchViewController.swift */; };
 		7AD6BE471DA2A2AD00EEA481 /* EditMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6BE461DA2A2AD00EEA481 /* EditMatchViewController.swift */; };
+		7ADEC1251DB9D6D000E1EDB2 /* OpenPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEC1241DB9D6D000E1EDB2 /* OpenPageViewController.swift */; };
 		7AE79D4C1D8B5CCC003F3EF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AE79D4B1D8B5CCC003F3EF4 /* GoogleService-Info.plist */; };
 		7AFE09961D8C547A0024E3C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE09951D8C547A0024E3C2 /* LoginViewController.swift */; };
 		AC9EFDC6421551A7030743DB /* Pods_FTC_Scouting_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F704DC68DF946B2E38EDF3C2 /* Pods_FTC_Scouting_App.framework */; };
@@ -83,7 +86,9 @@
 		7A3CC4A81D667896007013AB /* FTC Scouting AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FTC Scouting AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3CC4AC1D667896007013AB /* FTC_Scouting_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTC_Scouting_AppUITests.swift; sourceTree = "<group>"; };
 		7A3CC4AE1D667896007013AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A4DEF3D1DC7BE4000212805 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
 		7A8393B31D9EDC200073A89A /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7AAB5D551DBA76B9002762AA /* Toolbar1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toolbar1TableViewCell.swift; sourceTree = "<group>"; };
 		7AD6BE301DA2998E00EEA481 /* TeamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
 		7AD6BE321DA299C700EEA481 /* AddTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTeamViewController.swift; sourceTree = "<group>"; };
 		7AD6BE341DA29A2D00EEA481 /* JoinTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinTeamViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +98,7 @@
 		7AD6BE421DA2A27900EEA481 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 		7AD6BE441DA2A29800EEA481 /* ViewMatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMatchViewController.swift; sourceTree = "<group>"; };
 		7AD6BE461DA2A2AD00EEA481 /* EditMatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMatchViewController.swift; sourceTree = "<group>"; };
+		7ADEC1241DB9D6D000E1EDB2 /* OpenPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenPageViewController.swift; sourceTree = "<group>"; };
 		7AE79D4B1D8B5CCC003F3EF4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7AFE09951D8C547A0024E3C2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9262493481E9EB1A255408A1 /* Pods-FTC Scouting AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC Scouting AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FTC Scouting AppTests/Pods-FTC Scouting AppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -181,7 +187,10 @@
 				7A3CC48C1D667896007013AB /* AppDelegate.swift */,
 				7A3CC48E1D667896007013AB /* ViewController.swift */,
 				7A3CC4901D667896007013AB /* Main.storyboard */,
+				7AAB5D551DBA76B9002762AA /* Toolbar1TableViewCell.swift */,
+				7ADEC1241DB9D6D000E1EDB2 /* OpenPageViewController.swift */,
 				7AD6BE401DA29FB600EEA481 /* TeamSettingsViewController.swift */,
+				7A4DEF3D1DC7BE4000212805 /* TeamTableViewCell.swift */,
 				7AD6BE381DA29ECA00EEA481 /* HomeViewController.swift */,
 				7AD6BE361DA29EA900EEA481 /* NewMatchViewController.swift */,
 				7AD6BE341DA29A2D00EEA481 /* JoinTeamViewController.swift */,
@@ -512,9 +521,12 @@
 				7AD6BE411DA29FB600EEA481 /* TeamSettingsViewController.swift in Sources */,
 				7AD6BE471DA2A2AD00EEA481 /* EditMatchViewController.swift in Sources */,
 				7A8393B41D9EDC200073A89A /* SignUpViewController.swift in Sources */,
+				7AAB5D561DBA76B9002762AA /* Toolbar1TableViewCell.swift in Sources */,
 				7AD6BE311DA2998E00EEA481 /* TeamsViewController.swift in Sources */,
 				7AD6BE391DA29ECA00EEA481 /* HomeViewController.swift in Sources */,
+				7ADEC1251DB9D6D000E1EDB2 /* OpenPageViewController.swift in Sources */,
 				7AD6BE371DA29EA900EEA481 /* NewMatchViewController.swift in Sources */,
+				7A4DEF3E1DC7BE4000212805 /* TeamTableViewCell.swift in Sources */,
 				7AD6BE351DA29A2D00EEA481 /* JoinTeamViewController.swift in Sources */,
 				7A3CC48D1D667896007013AB /* AppDelegate.swift in Sources */,
 				7AD6BE431DA2A27900EEA481 /* RankingViewController.swift in Sources */,
