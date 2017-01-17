@@ -16,11 +16,11 @@ class OpenPageViewController: UIViewController {
         print("FTC Scouting App Opened!")
         print("Loading Open Page ...")
         
-        FIRAuth.auth()?.addAuthStateDidChangeListener { auth, user in
+        FIRAuth.auth()?.addStateDidChangeListener { auth, user in
             if ((user) != nil) {
                 print("User has already logged in ... Moving to Teams View Page")
                 // User is signed in.
-                self.performSegueWithIdentifier("loggedIn", sender: AnyObject?())
+                self.performSegue(withIdentifier: "loggedIn", sender: self)
             } else {
                 print("No user identified ... waiting for user interaction")
                 // No user is signed in.

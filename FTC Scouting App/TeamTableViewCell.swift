@@ -18,7 +18,7 @@ class TeamTableViewCell: UITableViewCell {
         
     }
     
-    func loadTeamCell(Name: String, Number: Int, memCount: Int){
+    func loadTeamCell(_ Name: String, Number: Int, memCount: Int){
         teamName.text = Name
         userCount.text = String(memCount)
         teamNumber.text = String(Number)
@@ -29,7 +29,7 @@ class TeamTableViewCell: UITableViewCell {
         // Initialization code
     }
 
-    override func setSelected(selected: Bool, animated: Bool) {
+    override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state

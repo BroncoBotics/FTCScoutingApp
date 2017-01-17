@@ -8,8 +8,8 @@
 
 import UIKit
 import Firebase
-import FirebaseAuth
-import GoogleSignIn
+//import FirebaseAuth
+//import GoogleSignIn
 
 
 class LoginViewController: UIViewController, GIDSignInUIDelegate {
@@ -32,10 +32,10 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate {
         // ...
     }
     
-    @IBAction func didTapSignIn(sender: AnyObject) {
+    @IBAction func didTapSignIn(_ sender: AnyObject) {
         // Sign In with credentials.
         guard let email1 = emailField.text, let password1 = passwordField.text else { return }
-        FIRAuth.auth()?.signInWithEmail(email1, password: password1) { (user, error) in
+        FIRAuth.auth()?.signIn(withEmail: email1, password: password1) { (user, error) in
             if let error = error {
                 print(error.localizedDescription)
                 return
@@ -50,9 +50,9 @@ class LoginViewController: UIViewController, GIDSignInUIDelegate {
     }
     
     
-    @IBAction func popViewController(sender: UIButton) {
+    @IBAction func popViewController(_ sender: UIButton) {
         if let navController = self.navigationController {
-            navController.popViewControllerAnimated(true)
+            navController.popViewController(animated: true)
         }
     }
  

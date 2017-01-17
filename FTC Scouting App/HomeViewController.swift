@@ -22,9 +22,9 @@ class HomeViewController: UIViewController {
     }
     
 
-    @IBAction func popViewController(sender: AnyObject) {
+    @IBAction func popViewController(_ sender: AnyObject) {
         if let navController = self.navigationController {
-            navController.popViewControllerAnimated(true)
+            navController.popViewController(animated: true)
         }
     }
     /*

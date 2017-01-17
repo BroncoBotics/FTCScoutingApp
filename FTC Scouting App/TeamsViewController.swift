@@ -10,35 +10,24 @@ import UIKit
 import FirebaseAuth
 import Firebase
 import FirebaseAnalytics
-import FirebaseAuthUI
-
 
 
 class TeamsViewController: UITableViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        tableView.delegate = self
+        tableView.dataSource = self
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-
-    }
-
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    
-        
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
-        
-        
         /*FIRAuth.auth()?.addAuthStateDidChangeListener { auth, user in
             if let user = user {
                 // User is signed in.
@@ -48,19 +37,18 @@ class TeamsViewController: UITableViewController {
             }*/
     }
 
-    
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
-        if indexPath == 0 {
-            let cell = tableView.dequeueReusableCellWithIdentifier("Toolbar1TableViewCell", forIndexPath: indexPath)
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if indexPath.row == 0 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "Toolbar1TableViewCell", for: indexPath)
             return cell
-        }else if indexPath != 0{
-            let cell = tableView.dequeueReusableCellWithIdentifier("TeamTableViewCell", forIndexPath: indexPath)
+        }else if indexPath.row > 0 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "TeamTableViewCell", for: indexPath)
             //RIGHT HERE
-            return cell
+            
+        return cell
         }
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("Toolbar1TableViewCell", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Toolbar1TableViewCell", for: indexPath)
         return cell
         
 

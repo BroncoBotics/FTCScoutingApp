@@ -17,9 +17,9 @@ class SignUpViewController: UIViewController {
     
     }
     
-    @IBAction func popViewController(sender: UIButton) {
+    @IBAction func popViewController(_ sender: UIButton) {
         if let navController = self.navigationController {
-            navController.popViewControllerAnimated(true)
+            navController.popViewController(animated: true)
         }
     }
 }

@@ -7,6 +7,12 @@
 //
 
 import XCTest
+import Firebase
+import FirebaseAnalytics
+import FirebaseAuth
+import FirebaseAuthUI
+import GoogleSignin
+
 @testable import FTC_Scouting_App
 
 class FTC_Scouting_AppTests: XCTestCase {
@@ -28,7 +34,7 @@ class FTC_Scouting_AppTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

@@ -26,6 +26,8 @@
 		7A3CC4AD1D667896007013AB /* FTC_Scouting_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3CC4AC1D667896007013AB /* FTC_Scouting_AppUITests.swift */; };
 		7A4DEF3E1DC7BE4000212805 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4DEF3D1DC7BE4000212805 /* TeamTableViewCell.swift */; };
 		7A8393B41D9EDC200073A89A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8393B31D9EDC200073A89A /* SignUpViewController.swift */; };
+		7AA3120C1E27E79300607FAA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA3120A1E27E79300607FAA /* FBSDKCoreKit.framework */; };
+		7AA3120D1E27E79300607FAA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA3120B1E27E79300607FAA /* FBSDKLoginKit.framework */; };
 		7AAB5D561DBA76B9002762AA /* Toolbar1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB5D551DBA76B9002762AA /* Toolbar1TableViewCell.swift */; };
 		7AD6BE311DA2998E00EEA481 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6BE301DA2998E00EEA481 /* TeamsViewController.swift */; };
 		7AD6BE331DA299C700EEA481 /* AddTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6BE321DA299C700EEA481 /* AddTeamViewController.swift */; };
@@ -39,7 +41,6 @@
 		7ADEC1251DB9D6D000E1EDB2 /* OpenPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADEC1241DB9D6D000E1EDB2 /* OpenPageViewController.swift */; };
 		7AE79D4C1D8B5CCC003F3EF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AE79D4B1D8B5CCC003F3EF4 /* GoogleService-Info.plist */; };
 		7AFE09961D8C547A0024E3C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE09951D8C547A0024E3C2 /* LoginViewController.swift */; };
-		AC9EFDC6421551A7030743DB /* Pods_FTC_Scouting_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F704DC68DF946B2E38EDF3C2 /* Pods_FTC_Scouting_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +61,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03885BCE2EEDC163DC898C10 /* Pods-FTC Scouting App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC Scouting App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FTC Scouting App/Pods-FTC Scouting App.debug.xcconfig"; sourceTree = "<group>"; };
-		3C0B1DD36D18BF66C4DDEFC2 /* Pods-FTC Scouting AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC Scouting AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FTC Scouting AppUITests/Pods-FTC Scouting AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		638A73536F538409DB14B973 /* Pods-FTC Scouting App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC Scouting App.release.xcconfig"; path = "Pods/Target Support Files/Pods-FTC Scouting App/Pods-FTC Scouting App.release.xcconfig"; sourceTree = "<group>"; };
 		7A2FB0581D8B5B6C0015D09B /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		7A2FB0591D8B5B6C0015D09B /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		7A2FB05A1D8B5B6C0015D09B /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -88,6 +86,8 @@
 		7A3CC4AE1D667896007013AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A4DEF3D1DC7BE4000212805 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
 		7A8393B31D9EDC200073A89A /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7AA3120A1E27E79300607FAA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/FTC_Scouting_App-fskqrpmvqvhayqdidnvmrjljvxoz/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		7AA3120B1E27E79300607FAA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/FTC_Scouting_App-fskqrpmvqvhayqdidnvmrjljvxoz/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		7AAB5D551DBA76B9002762AA /* Toolbar1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toolbar1TableViewCell.swift; sourceTree = "<group>"; };
 		7AD6BE301DA2998E00EEA481 /* TeamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
 		7AD6BE321DA299C700EEA481 /* AddTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTeamViewController.swift; sourceTree = "<group>"; };
@@ -101,10 +101,6 @@
 		7ADEC1241DB9D6D000E1EDB2 /* OpenPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenPageViewController.swift; sourceTree = "<group>"; };
 		7AE79D4B1D8B5CCC003F3EF4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7AFE09951D8C547A0024E3C2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		9262493481E9EB1A255408A1 /* Pods-FTC Scouting AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC Scouting AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FTC Scouting AppTests/Pods-FTC Scouting AppTests.release.xcconfig"; sourceTree = "<group>"; };
-		954201D1515188B4C077D69E /* Pods-FTC Scouting AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC Scouting AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FTC Scouting AppUITests/Pods-FTC Scouting AppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		DF00CEFB63DD5CA22956C460 /* Pods-FTC Scouting AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTC Scouting AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FTC Scouting AppTests/Pods-FTC Scouting AppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F704DC68DF946B2E38EDF3C2 /* Pods_FTC_Scouting_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTC_Scouting_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9EFDC6421551A7030743DB /* Pods_FTC_Scouting_App.framework in Frameworks */,
+				7AA3120C1E27E79300607FAA /* FBSDKCoreKit.framework in Frameworks */,
+				7AA3120D1E27E79300607FAA /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +133,8 @@
 		79023C4885DBB4A2911E2432 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F704DC68DF946B2E38EDF3C2 /* Pods_FTC_Scouting_App.framework */,
+				7AA3120A1E27E79300607FAA /* FBSDKCoreKit.framework */,
+				7AA3120B1E27E79300607FAA /* FBSDKLoginKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,7 +163,6 @@
 				7A3CC4A01D667896007013AB /* FTC Scouting AppTests */,
 				7A3CC4AB1D667896007013AB /* FTC Scouting AppUITests */,
 				7A3CC48A1D667896007013AB /* Products */,
-				9A8C808C7C6519908491213C /* Pods */,
 				79023C4885DBB4A2911E2432 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -227,19 +224,6 @@
 			path = "FTC Scouting AppUITests";
 			sourceTree = "<group>";
 		};
-		9A8C808C7C6519908491213C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				03885BCE2EEDC163DC898C10 /* Pods-FTC Scouting App.debug.xcconfig */,
-				638A73536F538409DB14B973 /* Pods-FTC Scouting App.release.xcconfig */,
-				DF00CEFB63DD5CA22956C460 /* Pods-FTC Scouting AppTests.debug.xcconfig */,
-				9262493481E9EB1A255408A1 /* Pods-FTC Scouting AppTests.release.xcconfig */,
-				3C0B1DD36D18BF66C4DDEFC2 /* Pods-FTC Scouting AppUITests.debug.xcconfig */,
-				954201D1515188B4C077D69E /* Pods-FTC Scouting AppUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,12 +231,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A3CC4B11D667896007013AB /* Build configuration list for PBXNativeTarget "FTC Scouting App" */;
 			buildPhases = (
-				F05DA84F1F38E5ABDFCE5546 /* 📦 Check Pods Manifest.lock */,
 				7A3CC4851D667896007013AB /* Sources */,
 				7A3CC4861D667896007013AB /* Frameworks */,
 				7A3CC4871D667896007013AB /* Resources */,
-				4DD2A9722EB5DB66336C8AF6 /* 📦 Embed Pods Frameworks */,
-				4A5E3B97277245998F98AA36 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,12 +248,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A3CC4B41D667896007013AB /* Build configuration list for PBXNativeTarget "FTC Scouting AppTests" */;
 			buildPhases = (
-				2FAAAB417BBCFED4A9DCD106 /* 📦 Check Pods Manifest.lock */,
 				7A3CC4991D667896007013AB /* Sources */,
 				7A3CC49A1D667896007013AB /* Frameworks */,
 				7A3CC49B1D667896007013AB /* Resources */,
-				C34F0623183C08BF0A051E0E /* 📦 Embed Pods Frameworks */,
-				90EDD2D6AE4AD754FF2E3C46 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -288,11 +266,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A3CC4B71D667896007013AB /* Build configuration list for PBXNativeTarget "FTC Scouting AppUITests" */;
 			buildPhases = (
-				226F820275210BD6B8E83E74 /* 📦 Check Pods Manifest.lock */,
 				7A3CC4A41D667896007013AB /* Sources */,
 				7A3CC4A51D667896007013AB /* Frameworks */,
 				7A3CC4A61D667896007013AB /* Resources */,
-				129A4A13CDF68CA8A4D834DF /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,19 +287,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "David Krakauer";
 				TargetAttributes = {
 					7A3CC4881D667896007013AB = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 249SKWD546;
+						DevelopmentTeam = 25W5PY3VML;
+						LastSwiftMigration = 0820;
 					};
 					7A3CC49C1D667896007013AB = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 7A3CC4881D667896007013AB;
 					};
 					7A3CC4A71D667896007013AB = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 7A3CC4881D667896007013AB;
 					};
 				};
@@ -385,129 +364,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		129A4A13CDF68CA8A4D834DF /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FTC Scouting AppUITests/Pods-FTC Scouting AppUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		226F820275210BD6B8E83E74 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		2FAAAB417BBCFED4A9DCD106 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		4A5E3B97277245998F98AA36 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FTC Scouting App/Pods-FTC Scouting App-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4DD2A9722EB5DB66336C8AF6 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FTC Scouting App/Pods-FTC Scouting App-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		90EDD2D6AE4AD754FF2E3C46 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FTC Scouting AppTests/Pods-FTC Scouting AppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C34F0623183C08BF0A051E0E /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FTC Scouting AppTests/Pods-FTC Scouting AppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F05DA84F1F38E5ABDFCE5546 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A3CC4851D667896007013AB /* Sources */ = {
@@ -598,8 +454,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -644,8 +502,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -664,6 +524,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -671,11 +532,11 @@
 		};
 		7A3CC4B21D667896007013AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03885BCE2EEDC163DC898C10 /* Pods-FTC Scouting App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 25W5PY3VML;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -685,16 +546,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "BrophyRobotics.FTC-Scouting-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		7A3CC4B31D667896007013AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 638A73536F538409DB14B973 /* Pods-FTC Scouting App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 25W5PY3VML;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
@@ -704,55 +566,56 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "BrophyRobotics.FTC-Scouting-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		7A3CC4B51D667896007013AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF00CEFB63DD5CA22956C460 /* Pods-FTC Scouting AppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "FTC Scouting AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BrophyRobotics.FTC-Scouting-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTC Scouting App.app/FTC Scouting App";
 			};
 			name = Debug;
 		};
 		7A3CC4B61D667896007013AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9262493481E9EB1A255408A1 /* Pods-FTC Scouting AppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "FTC Scouting AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BrophyRobotics.FTC-Scouting-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTC Scouting App.app/FTC Scouting App";
 			};
 			name = Release;
 		};
 		7A3CC4B81D667896007013AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C0B1DD36D18BF66C4DDEFC2 /* Pods-FTC Scouting AppUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "FTC Scouting AppUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BrophyRobotics.FTC-Scouting-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "FTC Scouting App";
 			};
 			name = Debug;
 		};
 		7A3CC4B91D667896007013AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 954201D1515188B4C077D69E /* Pods-FTC Scouting AppUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "FTC Scouting AppUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BrophyRobotics.FTC-Scouting-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "FTC Scouting App";
 			};
 			name = Release;
