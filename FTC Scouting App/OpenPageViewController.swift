@@ -7,8 +7,7 @@
 //
 
 import UIKit
-//import Firebase
-//import FirebaseAuth
+import Firebase
 
 class OpenPageViewController: UIViewController {
     override func viewDidLoad() {

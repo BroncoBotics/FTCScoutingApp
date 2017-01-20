@@ -9,7 +9,6 @@
 import UIKit
 import Foundation
 import Firebase
-import FirebaseAuth
 import GoogleSignIn
 
 @UIApplicationMain
