@@ -6,10 +6,7 @@ target 'FTC Scouting App' do
   use_frameworks!
 
   # Pods for FTC Scouting App
-	pod ‘Firebase’
-	pod ‘FirebaseAuth’
-	pod ‘FirebaseAnalytics’
-	pod 'Google/SignIn'
+	pod ‘Firebase/Core’
 
   target 'FTC Scouting AppTests' do
     inherit! :search_paths

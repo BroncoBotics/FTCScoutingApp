@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import FirebaseAuth
-import Firebase
-import FirebaseAnalytics
+//import FirebaseAuth
+//import Firebase
+//import FirebaseAnalytics
 
 
 class TeamsViewController: UITableViewController {
