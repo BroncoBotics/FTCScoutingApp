@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1471A5743B854CE8D69D1076 /* Pods_FTC_Scouting_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF665312F7F97295590C2C8F /* Pods_FTC_Scouting_AppTests.framework */; };
 		53E793DFA1AB085861D9D83C /* Pods_FTC_Scouting_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5290A49AF5ADDC231938EB22 /* Pods_FTC_Scouting_AppUITests.framework */; };
 		7A2FB0621D8B5B6C0015D09B /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A2FB0581D8B5B6C0015D09B /* OpenSans-Bold.ttf */; };
 		7A2FB0631D8B5B6C0015D09B /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A2FB0591D8B5B6C0015D09B /* OpenSans-BoldItalic.ttf */; };
@@ -28,9 +27,8 @@
 		7A3CC4AD1D667896007013AB /* FTC_Scouting_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3CC4AC1D667896007013AB /* FTC_Scouting_AppUITests.swift */; };
 		7A4DEF3E1DC7BE4000212805 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4DEF3D1DC7BE4000212805 /* TeamTableViewCell.swift */; };
 		7A8393B41D9EDC200073A89A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8393B31D9EDC200073A89A /* SignUpViewController.swift */; };
-		7AA3120C1E27E79300607FAA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA3120A1E27E79300607FAA /* FBSDKCoreKit.framework */; };
-		7AA3120D1E27E79300607FAA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA3120B1E27E79300607FAA /* FBSDKLoginKit.framework */; };
 		7AAB5D561DBA76B9002762AA /* Toolbar1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB5D551DBA76B9002762AA /* Toolbar1TableViewCell.swift */; };
+		7AB12DDB1E36767000D9F2AA /* Pods_FTC_Scouting_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB12DDA1E36767000D9F2AA /* Pods_FTC_Scouting_App.framework */; };
 		7AD6BE311DA2998E00EEA481 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6BE301DA2998E00EEA481 /* TeamsViewController.swift */; };
 		7AD6BE331DA299C700EEA481 /* AddTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6BE321DA299C700EEA481 /* AddTeamViewController.swift */; };
 		7AD6BE351DA29A2D00EEA481 /* JoinTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD6BE341DA29A2D00EEA481 /* JoinTeamViewController.swift */; };
@@ -94,6 +92,7 @@
 		7AA3120A1E27E79300607FAA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/FTC_Scouting_App-fskqrpmvqvhayqdidnvmrjljvxoz/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		7AA3120B1E27E79300607FAA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/FTC_Scouting_App-fskqrpmvqvhayqdidnvmrjljvxoz/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		7AAB5D551DBA76B9002762AA /* Toolbar1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toolbar1TableViewCell.swift; sourceTree = "<group>"; };
+		7AB12DDA1E36767000D9F2AA /* Pods_FTC_Scouting_App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_FTC_Scouting_App.framework; path = "../../../Library/Developer/Xcode/DerivedData/FTC_Scouting_App-fskqrpmvqvhayqdidnvmrjljvxoz/Build/Products/Debug-iphonesimulator/Pods_FTC_Scouting_App.framework"; sourceTree = "<group>"; };
 		7AD6BE301DA2998E00EEA481 /* TeamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
 		7AD6BE321DA299C700EEA481 /* AddTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTeamViewController.swift; sourceTree = "<group>"; };
 		7AD6BE341DA29A2D00EEA481 /* JoinTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinTeamViewController.swift; sourceTree = "<group>"; };
@@ -120,8 +119,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AA3120C1E27E79300607FAA /* FBSDKCoreKit.framework in Frameworks */,
-				7AA3120D1E27E79300607FAA /* FBSDKLoginKit.framework in Frameworks */,
 				D9D1E9AF06A29FFE6686464B /* Pods_FTC_Scouting_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1471A5743B854CE8D69D1076 /* Pods_FTC_Scouting_AppTests.framework in Frameworks */,
+				7AB12DDB1E36767000D9F2AA /* Pods_FTC_Scouting_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +158,7 @@
 		79023C4885DBB4A2911E2432 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7AB12DDA1E36767000D9F2AA /* Pods_FTC_Scouting_App.framework */,
 				7AA3120A1E27E79300607FAA /* FBSDKCoreKit.framework */,
 				7AA3120B1E27E79300607FAA /* FBSDKLoginKit.framework */,
 				ADDA647AF8E6F54F6236E9D6 /* Pods_FTC_Scouting_App.framework */,
@@ -727,6 +725,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -748,6 +747,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

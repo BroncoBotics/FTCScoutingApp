@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Aw3-41-Buw">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -30,10 +30,10 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="App created by Brophy Robotics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnP-Fo-bph">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App created by Brophy Robotics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnP-Fo-bph">
                                 <rect key="frame" x="124" y="538" width="188" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="188" id="YmH-bc-hrR"/>
@@ -43,8 +43,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAs-e5-0eN">
-                                <rect key="frame" x="60" y="283" width="200" height="56"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAs-e5-0eN">
+                                <rect key="frame" x="60" y="283.5" width="200" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="a8x-Pj-oBl"/>
                                 </constraints>
@@ -56,23 +56,23 @@
                                     <segue destination="zNo-fC-EPp" kind="showDetail" identifier="toSignUp" id="zKG-vd-xZ3"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eTz-xB-dty">
-                                <rect key="frame" x="95" y="283" width="130" height="1"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eTz-xB-dty">
+                                <rect key="frame" x="95" y="283.5" width="130" height="1"/>
                                 <color key="backgroundColor" red="0.21349394633507857" green="0.21349394633507857" blue="0.21349394633507857" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="br2-Ih-svU"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRST Scouting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DiP-Xn-npj">
-                                <rect key="frame" x="62" y="57" width="197" height="52"/>
+                                <rect key="frame" x="62" y="57" width="196.5" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="Eiz-PA-DRd"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="30"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0UB-FU-fej">
-                                <rect key="frame" x="60" y="228" width="200" height="56"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0UB-FU-fej">
+                                <rect key="frame" x="60" y="228.5" width="200" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="40G-pl-Bsi"/>
                                 </constraints>
@@ -128,7 +128,7 @@
                         <viewControllerLayoutGuide type="bottom" id="FTo-vq-ncc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Hsh-Vn-wMu">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGF-Rh-M8G">
@@ -148,7 +148,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="termsofuse"/>
                                 <connections>
-                                    <segue destination="Y9J-4J-RnX" kind="show" id="ywf-hv-Po8"/>
+                                    <segue destination="Y9J-4J-RnX" kind="show" identifier="toTermsOfUse" id="ywf-hv-Po8"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Or sign up using google" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gA-MK-YYA">
@@ -238,7 +238,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <segue destination="ad6-H6-neD" kind="show" id="3Ri-Kc-HUt"/>
+                        <segue destination="ad6-H6-neD" kind="show" identifier="updatedSignIn" id="3Ri-Kc-HUt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uMt-ls-9Y8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -254,7 +254,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ybI-5Z-zsg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NWN-9M-PBf">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Terms of Use Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hB-ZX-f4v">
@@ -281,7 +281,7 @@
                         <viewControllerLayoutGuide type="bottom" id="fCI-zT-G6d"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xLm-jK-9O0">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wyh-u3-ccg" userLabel="ExitButton">
@@ -355,7 +355,7 @@
                     <connections>
                         <outlet property="emailField" destination="QDX-Ki-JYk" id="R2c-rn-sVR"/>
                         <outlet property="passwordField" destination="N4o-tN-VoS" id="DvN-Dq-iAc"/>
-                        <segue destination="ad6-H6-neD" kind="show" id="Tf6-7A-ozo"/>
+                        <segue destination="ad6-H6-neD" kind="show" identifier="updatedLogIn" id="Tf6-7A-ozo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1RD-cP-6DA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -371,7 +371,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ZZC-Yx-3WS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Qq7-H9-P9U">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Register your team" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5F-RS-uis">
@@ -476,7 +476,7 @@
                         <viewControllerLayoutGuide type="bottom" id="5AX-2k-awF"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="euG-WE-6Ob">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Team Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xa8-aj-8hL">
@@ -555,11 +555,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <segue destination="BoV-P1-OkQ" kind="show" id="42p-Dj-gxj"/>
-                        <segue destination="HDd-Zx-lgG" kind="show" id="GN8-T6-61Q"/>
-                        <segue destination="xb4-Sd-04d" kind="show" id="xbL-Du-6rn"/>
-                        <segue destination="3UK-gt-yzs" kind="show" id="e0W-XT-3Ut"/>
-                        <segue destination="FEz-SD-dvz" kind="show" id="8dE-Sb-ISl"/>
+                        <segue destination="BoV-P1-OkQ" kind="show" identifier="toNewMatch" id="42p-Dj-gxj"/>
+                        <segue destination="HDd-Zx-lgG" kind="show" identifier="toTeamSettings" id="GN8-T6-61Q"/>
+                        <segue destination="xb4-Sd-04d" kind="show" identifier="toRanking" id="xbL-Du-6rn"/>
+                        <segue destination="3UK-gt-yzs" kind="show" identifier="toViewMatch" id="e0W-XT-3Ut"/>
+                        <segue destination="FEz-SD-dvz" kind="show" identifier="toEditMatch" id="8dE-Sb-ISl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pd4-dC-hof" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -575,7 +575,7 @@
                         <viewControllerLayoutGuide type="bottom" id="3O3-o0-eCO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="H3g-ec-0fF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L0P-Oe-ewF" userLabel="EmailSignIn">
@@ -658,11 +658,11 @@
             <objects>
                 <tableViewController id="FEz-SD-dvz" customClass="EditMatchViewController" customModule="FTC_Scouting_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="PVP-3o-5Gq">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="2HX-6K-cAx">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="matchCell" id="2HX-6K-cAx">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2HX-6K-cAx" id="KEA-gF-7tv">
@@ -690,7 +690,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Cz7-UA-yad"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="DYd-fc-nMU">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -704,11 +704,11 @@
             <objects>
                 <tableViewController id="xb4-Sd-04d" customClass="RankingViewController" customModule="FTC_Scouting_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="2ls-AL-aa6">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="omx-7V-kO0">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="rankingCell" id="omx-7V-kO0">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="omx-7V-kO0" id="4qq-7S-WOo">
@@ -732,11 +732,11 @@
             <objects>
                 <tableViewController id="3UK-gt-yzs" customClass="ViewMatchViewController" customModule="FTC_Scouting_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Fsk-qX-H5y">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="scB-Dx-pbW">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="matchCell" id="scB-Dx-pbW">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="scB-Dx-pbW" id="4Fe-Dt-xrS">
@@ -760,20 +760,12 @@
             <objects>
                 <tableViewController id="ad6-H6-neD" customClass="TeamsViewController" customModule="FTC_Scouting_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="QYC-Kr-XiZ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="cem-NB-oUA">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cem-NB-oUA" id="fux-rP-vy5">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Toolbar1TableViewCell" rowHeight="50" id="f0z-qP-lZB" customClass="Toolbar1TableViewCell" customModule="FTC_Scouting_App" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="72" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="28" width="320" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="f0z-qP-lZB" id="yed-tL-1qU">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -795,7 +787,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TeamTableViewCell" rowHeight="100" id="4Gx-qa-68T" customClass="TeamTableViewCell" customModule="FTC_Scouting_App" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="122" width="320" height="100"/>
+                                <rect key="frame" x="0.0" y="78" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Gx-qa-68T" id="8Wg-E6-vRL">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
@@ -842,9 +834,9 @@
                         </connections>
                     </tableView>
                     <connections>
-                        <segue destination="4BS-eg-rHp" kind="show" id="FnL-rU-mfB"/>
-                        <segue destination="uMk-lp-hCA" kind="show" id="7zQ-WZ-I1N"/>
-                        <segue destination="ctG-i8-iwK" kind="show" id="6EE-X3-9q4"/>
+                        <segue destination="4BS-eg-rHp" kind="show" identifier="toNewTeam" id="FnL-rU-mfB"/>
+                        <segue destination="uMk-lp-hCA" kind="show" identifier="toJoinTeam" id="7zQ-WZ-I1N"/>
+                        <segue destination="ctG-i8-iwK" kind="show" identifier="toTeamHome" id="6EE-X3-9q4"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cN8-XR-fw9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -879,7 +871,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ZKo-iU-IzJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7fs-oo-iqc">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Join A Team" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NkI-Zi-3kN">
@@ -953,6 +945,6 @@
         <image name="termsofuse" width="231" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3Ri-Kc-HUt"/>
+        <segue reference="Tf6-7A-ozo"/>
     </inferredMetricsTieBreakers>
 </document>
