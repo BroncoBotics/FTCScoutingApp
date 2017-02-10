@@ -12,33 +12,38 @@ import FirebaseAuth
 import GoogleSignIn
 
 
-class LoginViewController: UIViewController, GIDSignInUIDelegate {
+class LoginViewController: UIViewController {
     
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
+    @IBOutlet weak var googleSIgnIn: GIDSignInButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        GIDSignIn.sharedInstance().uiDelegate = self
+        
         
         // Automatically sign in the user.
-        GIDSignIn.sharedInstance().signInSilently()
+        //GIDSignIn.sharedInstance().signInSilently()
         
         // TODO(developer) Configure the sign-in button look/feel
         // ...
     }
     
-    @IBAction func didTapSignIn(_ sender: AnyObject) {
+    
+    
+    @IBAction func didTapSignIn(sender: AnyObject) {
         // Sign In with credentials.
         guard let email1 = emailField.text, let password1 = passwordField.text else { return }
         FIRAuth.auth()?.signIn(withEmail: email1, password: password1) { (user, error) in
             if let error = error {
                 print(error.localizedDescription)
                 return
+            } else {
+                self.performSegue(withIdentifier: "updatedLogIn", sender: self)
             }
 
         }

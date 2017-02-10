@@ -7,9 +7,7 @@
 //
 
 import UIKit
-//import FirebaseAuth
-//import Firebase
-//import FirebaseAnalytics
+import Firebase
 
 
 class TeamsViewController: UITableViewController {
@@ -39,7 +37,8 @@ class TeamsViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.row == 0 {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "Toolbar1TableViewCell", for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: "Toolbar1TableViewCell", for: indexPath) as! Toolbar1TableViewCell
+            cell.tempNavControl = self.navigationController
             return cell
         }else if indexPath.row > 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "TeamTableViewCell", for: indexPath)

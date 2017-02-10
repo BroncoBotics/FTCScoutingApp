@@ -37,25 +37,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     // Handle Authentication URL
     func application(_ application: UIApplication,
                      open url: URL, options: [UIApplicationOpenURLOptionsKey: Any]) -> Bool {
-        return GIDSignIn.sharedInstance().handle(url,
-                                                    sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,
-                                                    annotation: options[UIApplicationOpenURLOptionsKey.annotation])
+        return GIDSignIn.sharedInstance().handle(url, sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String, annotation: options[UIApplicationOpenURLOptionsKey.annotation])
     }
     
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!,
                 withError error: NSError!) {
-        if let error = error {
+        if error == nil {
+            /*let userId = user.userID
+            let idToken = user.authentication.idToken // Safe to send to the server
+            let fullName = user.profile.name
+            let userEmail = user.profile.email*/
+            
+            
+            
+            
+            
+        } else if let error = error {
             print(error.localizedDescription)
             return
         }
         
-        let authentication = user.authentication
-        let credential = FIRGoogleAuthProvider.credential(withIDToken: (authentication?.idToken)!,
-                                                                     accessToken: (authentication?.accessToken)!)
+                
         
-        FIRAuth.auth()?.signIn(with: credential) { (user, error) in
-            
-        }
         
     }
     

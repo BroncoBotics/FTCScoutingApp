@@ -7,8 +7,25 @@
 //
 
 import UIKit
+import Firebase
+import GoogleSignIn
 
 class Toolbar1TableViewCell: UITableViewCell {
+    
+    var tempNavControl : UINavigationController?
+
+    @IBAction func signOut(_ sender: Any) {
+        try! FIRAuth.auth()?.signOut()
+        GIDSignIn.sharedInstance().signOut()
+        
+        if let navController = tempNavControl {
+                navController.popViewController(animated: true)
+        }
+        
+    }
+        
+    
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()

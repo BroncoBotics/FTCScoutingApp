@@ -2,7 +2,7 @@
 //  SignUpViewController.swift
 //  FTC Scouting App
 //
-//  Created by David Krakauer on 9/30/16.
+//  Created by David Krakauer on FTC_Scouting_App 9/30/16.
 //  Copyright © 2016 David Krakauer. All rights reserved.
 //
 
@@ -17,9 +17,13 @@ class SignUpViewController: UIViewController {
     
     }
     
+
+    
     @IBAction func popViewController(_ sender: UIButton) {
         if let navController = self.navigationController {
             navController.popViewController(animated: true)
+            
         }
     }
+
 }
