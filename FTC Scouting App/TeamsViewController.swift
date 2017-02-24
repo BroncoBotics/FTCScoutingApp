@@ -8,10 +8,12 @@
 
 import UIKit
 import Firebase
+import FirebaseDatabase
 
 
 class TeamsViewController: UITableViewController {
 
+    var ref: FIRDatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,17 +27,21 @@ class TeamsViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
-        /*FIRAuth.auth()?.addAuthStateDidChangeListener { auth, user in
-            if let user = user {
-                // User is signed in.
-                user.
-            } else {
-                // No user is signed in.
-            }*/
+        ref = FIRDatabase.database().reference()
+        var teamArray = [String]()
+        
+        if let User = FIRAuth.auth()?.currentUser {
+            ref.child("users").child(User.uid).child("teamIDs").queryOrderedByKey("team").observ
+                
+            
+        }
+        
+        
+        
+        
     }
 
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.row == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "Toolbar1TableViewCell", for: indexPath) as! Toolbar1TableViewCell
             cell.tempNavControl = self.navigationController

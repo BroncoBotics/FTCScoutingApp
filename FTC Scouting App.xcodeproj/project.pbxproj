@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211171803E72492FCCBBF41C /* Pods_FTC_Scouting_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF665312F7F97295590C2C8F /* Pods_FTC_Scouting_AppTests.framework */; };
 		53E793DFA1AB085861D9D83C /* Pods_FTC_Scouting_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5290A49AF5ADDC231938EB22 /* Pods_FTC_Scouting_AppUITests.framework */; };
 		7A2FB0621D8B5B6C0015D09B /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A2FB0581D8B5B6C0015D09B /* OpenSans-Bold.ttf */; };
 		7A2FB0631D8B5B6C0015D09B /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A2FB0591D8B5B6C0015D09B /* OpenSans-BoldItalic.ttf */; };
@@ -128,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AB12DDB1E36767000D9F2AA /* Pods_FTC_Scouting_App.framework in Frameworks */,
+				211171803E72492FCCBBF41C /* Pods_FTC_Scouting_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +216,7 @@
 				7A3CC48C1D667896007013AB /* AppDelegate.swift */,
 				7A3CC48E1D667896007013AB /* ViewController.swift */,
 				7A3CC4901D667896007013AB /* Main.storyboard */,
+				7AD6BE301DA2998E00EEA481 /* TeamsViewController.swift */,
 				7AAB5D551DBA76B9002762AA /* Toolbar1TableViewCell.swift */,
 				7ADEC1241DB9D6D000E1EDB2 /* OpenPageViewController.swift */,
 				7AD6BE401DA29FB600EEA481 /* TeamSettingsViewController.swift */,
@@ -227,7 +230,6 @@
 				7AD6BE321DA299C700EEA481 /* AddTeamViewController.swift */,
 				7A8393B31D9EDC200073A89A /* SignUpViewController.swift */,
 				7AFE09951D8C547A0024E3C2 /* LoginViewController.swift */,
-				7AD6BE301DA2998E00EEA481 /* TeamsViewController.swift */,
 				7A3CC4931D667896007013AB /* Assets.xcassets */,
 				7A3CC4951D667896007013AB /* LaunchScreen.storyboard */,
 				7A3CC4981D667896007013AB /* Info.plist */,

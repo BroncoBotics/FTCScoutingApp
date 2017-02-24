@@ -73,13 +73,13 @@ class OpenPageViewController: UIViewController, GIDSignInUIDelegate {
     
     
     
-    @IBAction func signOut(_ sender: Any) {
+   /* @IBAction func signOut(_ sender: Any) {
         GIDSignIn.sharedInstance().signOut()
         try! FIRAuth.auth()!.signOut()
         
-    }
+    }*/
     
-    @IBAction func checkUsers(_ sender: Any) {
+    /*@IBAction func checkUsers(_ sender: Any) {
         if FIRAuth.auth()?.currentUser != nil {
             print("Firebase User Exsists")
         
@@ -94,7 +94,7 @@ class OpenPageViewController: UIViewController, GIDSignInUIDelegate {
         }
         
         
-    }
+    }*/
     
     
     

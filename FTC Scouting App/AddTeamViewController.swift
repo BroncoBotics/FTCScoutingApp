@@ -9,6 +9,10 @@
 import UIKit
 
 class AddTeamViewController: UIViewController {
+    @IBOutlet weak var teamName: UITextField!
+    @IBOutlet weak var teamNumber: UITextField!
+    @IBOutlet weak var teamPassword: UITextField!
+    @IBOutlet weak var teamPassword2: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()

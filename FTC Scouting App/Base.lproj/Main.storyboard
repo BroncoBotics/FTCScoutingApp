@@ -97,22 +97,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3J-j1-Jpe">
-                                <rect key="frame" x="183" y="342" width="111" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Sign out"/>
-                                <connections>
-                                    <action selector="signOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hBq-Ul-sIG"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pu6-B3-dcp">
-                                <rect key="frame" x="21" y="348" width="140" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="user exsists?"/>
-                                <connections>
-                                    <action selector="checkUsers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ExO-nX-Lca"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -239,6 +223,9 @@
                                         <state key="normal" title="Sign Up">
                                             <color key="titleColor" red="0.92833769629999996" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="didSignUp:" destination="zNo-fC-EPp" eventType="touchUpInside" id="cZs-FP-zTD"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -256,6 +243,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="Lbz-mT-ta5"/>
                     <connections>
+                        <outlet property="emailField" destination="T13-mz-5tw" id="Ony-Ah-aRW"/>
+                        <outlet property="emailField2" destination="F1F-qt-I23" id="gsM-nw-OSn"/>
+                        <outlet property="nameField" destination="uga-II-xDk" id="xxB-6A-kT9"/>
+                        <outlet property="passwordField" destination="WHm-kc-ysC" id="Th4-PV-Cry"/>
+                        <outlet property="passwordField2" destination="nGq-SU-q37" id="J3c-om-g9N"/>
                         <segue destination="ad6-H6-neD" kind="show" identifier="updatedSignIn" id="3Ri-Kc-HUt"/>
                     </connections>
                 </viewController>
@@ -366,7 +358,7 @@
                     <connections>
                         <outlet property="emailField" destination="QDX-Ki-JYk" id="R2c-rn-sVR"/>
                         <outlet property="passwordField" destination="N4o-tN-VoS" id="DvN-Dq-iAc"/>
-                        <segue destination="ad6-H6-neD" kind="show" id="OHq-Th-ZSE"/>
+                        <segue destination="ad6-H6-neD" kind="show" identifier="updatedLogIn" id="OHq-Th-ZSE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1RD-cP-6DA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -473,6 +465,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="teamName" destination="nTA-bq-Hhr" id="jbj-rf-nt1"/>
+                        <outlet property="teamNumber" destination="d3f-ei-IQY" id="8Tm-TZ-ndq"/>
+                        <outlet property="teamPassword" destination="SZi-1K-1E2" id="dR1-z8-hKi"/>
+                        <outlet property="teamPassword2" destination="83x-rN-M5o" id="tfF-Xi-29U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rOt-gj-x51" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -677,7 +675,7 @@
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2HX-6K-cAx" id="KEA-gF-7tv">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -723,7 +721,7 @@
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="omx-7V-kO0" id="4qq-7S-WOo">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -751,7 +749,7 @@
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="scB-Dx-pbW" id="4Fe-Dt-xrS">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -779,7 +777,7 @@
                                 <rect key="frame" x="0.0" y="28" width="320" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="f0z-qP-lZB" id="yed-tL-1qU">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRT-Jj-exr">
@@ -804,7 +802,7 @@
                                 <rect key="frame" x="0.0" y="78" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Gx-qa-68T" id="8Wg-E6-vRL">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="teamName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ts1-HN-bpI">
@@ -860,7 +858,7 @@
         <!--Navigation Controller-->
         <scene sceneID="PGf-FG-FDq">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Aw3-41-Buw" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="navControllerActual" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Aw3-41-Buw" sceneMemberID="viewController">
                     <toolbarItems/>
                     <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qde-0t-lC0">
@@ -959,6 +957,6 @@
         <image name="termsofuse" width="231" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="42m-lj-ZHq"/>
+        <segue reference="OHq-Th-ZSE"/>
     </inferredMetricsTieBreakers>
 </document>
