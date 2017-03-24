@@ -18,10 +18,11 @@ class OpenPageViewController: UIViewController, GIDSignInUIDelegate {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        
         if GIDSignIn.sharedInstance().currentUser != nil {
             print("Google Sign In recieved")
             
-            if let user = GIDSignIn.sharedInstance().currentUser{
+            if let user = GIDSignIn.sharedInstance().currentUser {
                 guard let authentication = user.authentication else { return }
                 let credential = FIRGoogleAuthProvider.credential(withIDToken: authentication.idToken,accessToken: authentication.accessToken)
                 
@@ -38,6 +39,21 @@ class OpenPageViewController: UIViewController, GIDSignInUIDelegate {
                         if let name = user?.displayName {
                             print("Display Name: " + name)
                         }
+                        let ref = FIRDatabase.database().reference()
+                        if let currentUser = FIRAuth.auth()?.currentUser {
+                            ref.child("Users").child(currentUser.uid).child("Username").setValue(currentUser.displayName)
+                            ref.child("Users").child(currentUser.uid).child("Email").setValue(currentUser.email)
+                            
+                            
+                            ref.child("Users").child(currentUser.uid).child("teamCount").observeSingleEvent(of: .value, with: { (snapshot) in
+                                let teamcount = snapshot.value as? Int
+                                
+                                    if teamcount == nil || teamcount == 0 {
+                                        ref.child("Users").child(currentUser.uid).child("teamCount").setValue(0)
+                                    }
+                                
+                            })
+                        }
                         
                         self.performSegue(withIdentifier: "loggedIn", sender: self)
                     }
@@ -53,12 +69,12 @@ class OpenPageViewController: UIViewController, GIDSignInUIDelegate {
             
         } else if FIRAuth.auth()?.currentUser != nil {
             if let user = FIRAuth.auth()?.currentUser {
-                let name = user.displayName
+               // let name = user.displayName
                 let email = user.email
                 
                 print("User already signed in and authenticated")
                 print("User Information")
-                print("Display Name: " + name!)
+               // print("Display Name: " + name!)
                 print("Email: " + email!)
                 
                 self.performSegue(withIdentifier: "loggedIn", sender: self)

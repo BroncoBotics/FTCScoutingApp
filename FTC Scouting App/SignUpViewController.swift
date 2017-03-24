@@ -77,13 +77,22 @@ class SignUpViewController: UIViewController {
             print("Sections are matching")
         }
         
+        var ref: FIRDatabaseReference!
+        ref = FIRDatabase.database().reference()
+        
         if sectionsAreFilled && sectionsAreMatched {
             
             FIRAuth.auth()?.createUser(withEmail: emailField.text!, password: passwordField.text!, completion: { (user: FIRUser?, error) in
                 if error == nil {
+                    if let currentUser = FIRAuth.auth()?.currentUser {
+                    //ref.child("Users").child(currentUser.uid).child("email").setValue(self.emailField.text!)
+                    //ref.child("Users").child(currentUser.uid).child("name").setValue(self.nameField.text!)
+                    ref.child("Users").child(currentUser.uid).setValue(["teamCount" : 0])
+                    
                     print("logged in as " + self.nameField.text!)
                     FIRAnalytics.setUserPropertyString(self.nameField.text!, forName: "realName")
                     self.performSegue(withIdentifier: "updatedSignIn", sender: self)
+                    }
                 }else{
                     print("sign up failed")
                     print(error!)
@@ -104,6 +113,7 @@ class SignUpViewController: UIViewController {
     @IBAction func popViewController(_ sender: UIButton) {
         if let navController = self.navigationController {
             navController.popViewController(animated: true)
+            
             
         }
     }

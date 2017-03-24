@@ -13,7 +13,13 @@ import GoogleSignIn
 class Toolbar1TableViewCell: UITableViewCell {
     
     var tempNavControl : UINavigationController?
+    var superClass : UITableViewController?
 
+    @IBAction func addTeam(_ sender: Any) {
+        if superClass != nil {
+            superClass!.performSegue(withIdentifier: "toNewTeam", sender: superClass)
+        }
+    }
     @IBAction func signOut(_ sender: Any) {
         try! FIRAuth.auth()?.signOut()
         GIDSignIn.sharedInstance().signOut()
